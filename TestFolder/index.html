@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="form" class="form1">
+        <p>Bu bir hesap makinasidir :))</p>
+        <form>
+            <input type="text" id="input1" placeholder="Sayı 1">
+            <select id="operator">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+                <option value="power">**</option>
+                <option value="mod">%</option>
+            </select>
+            <input type="text" id="input2" placeholder="Sayı 2">
+            <button type="button" onclick="calculate()">Hesapla</button>
+
+
+
+            <p id="result"></p>
+
+
+            <input type="button" name="btnReset" value="Temizle" onClick="ResetTheForm(form)">
+
+        </form>
+
+    </div>
+
+    <script src="app.js"> </script>
+
+    <p class="history">History</p>
+
+    <div>
+        <table id="liste" class="ortala">
+
+            <tr>
+                <th>Value-1</th>
+                <th>Value-2</th>
+                <th>Operator</th>
+                <th>Sonuc</th>
+                <th>Sil</th> <!-- eklenen alan -->
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

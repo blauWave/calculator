@@ -1,0 +1,59 @@
+.form1 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: skyblue;
+    position: relative;
+    margin: auto;
+    border: 1px solid rgb(215, 4, 4);
+    border-spacing: 0px;
+}
+
+.form2 {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background-color: darkorange;
+    position: relative;
+    margin: auto;
+}
+
+.history {
+    width: 60px;
+    height: 15px;
+    padding: 10px;
+    background-color: rgb(128, 81, 168);
+    position: relative;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(215, 4, 4);
+    border-spacing: 0px;
+}
+
+
+body {
+    background-color: rgb(4, 39, 49);
+}
+
+table {
+    background: #0984e3;
+    margin: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+td,
+th {
+    border: 1px solid white;
+    border-spacing: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+p {
+    text-align: center;
+    vertical-align: middle;
+}
